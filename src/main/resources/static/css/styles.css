@@ -134,7 +134,7 @@ a {
     color: #fff;
     text-decoration: none;
     font-size: 2.2rem;
-    display: block;
+    display: inline-block;
 }
 @media (min-width: 768px) {
     .navegacion a {
@@ -149,7 +149,6 @@ a {
 .navegacion a:hover {
     transition: 1s;
     background-color: #00ad26;
- 
 }
 .mobile-menu img {
     width: 5rem;
@@ -330,8 +329,5 @@ copyright {
     color: #fff;
 }
 
-img{
-    max-height: auto;
-    
-}
+
 
